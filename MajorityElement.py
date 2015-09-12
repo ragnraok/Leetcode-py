@@ -9,3 +9,5 @@ def majorityElement(self, num):
     for key in num_map:
         if num_map[key] > len(num) / 2:
             return key
+
+    #NOTE: or we can pick the median in a sorted list
