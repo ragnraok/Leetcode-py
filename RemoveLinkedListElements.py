@@ -7,7 +7,7 @@ def removeElements(head, val):
         if cur.next.val == val:
             cur.next = cur.next.next
         else:
-            cur = cur.next.next
+            cur = cur.next
 
     if ret.val == val:
         ret = ret.next
